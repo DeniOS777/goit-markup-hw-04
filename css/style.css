@@ -357,24 +357,24 @@ body {
 
 .clients-list {
   display: flex;
+  margin-left: -30px;
 }
 
 .clients-item {
-  flex-basis: calc(100% / 5 - 30px);
+  flex-basis: calc(100% / 6 - 30px);
+  /* width: 170px; */
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
-}
-
-.clients-item:hover {
-  border: 1px solid var(--accent-color);
-}
-
-.clients-item + .clients-item {
   margin-left: 30px;
 }
 
+/* .clients-item + .clients-item {
+  margin-left: 30px;
+} */
+
 .clients-link {
+  display: block;
   color: #afb1b8;
 }
 
@@ -397,7 +397,7 @@ body {
 /* Преобразование из строчного в блочный элемент */
 
 .logo-move {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
 }
 
