@@ -186,7 +186,15 @@ body {
   padding-top: 200px;
 
   text-align: center;
-  background-color: #2f303a;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 600px;
+  background-position: center;
 }
 
 /* Стили к заголовку героя */
@@ -270,8 +278,7 @@ body {
 
 /* Заголовок секции о нашей работе и команде */
 
-.work-title,
-.team-title {
+.section-title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -344,6 +351,39 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-color);
+}
+
+/* ||||||||||||||||||||| С Е К Ц И Я   Н А Ш И   К Л И Е Н Т Ы ||||||||||||||||||||| */
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item {
+  flex-basis: calc(100% / 5 - 30px);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.clients-item:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-link {
+  color: #afb1b8;
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-icon:hover {
+  fill: var(--accent-color);
 }
 
 /* |||||||||||||||||||||   Ф У Т Е Р   С Т Р А Н И Ц Ы   ||||||||||||||||||||| */
