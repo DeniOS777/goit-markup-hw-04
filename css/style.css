@@ -505,6 +505,54 @@ body {
   color: var(--accent-color);
 }
 
+.connect-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.17;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.connect-list {
+  display: inline-flex;
+}
+
+.connect-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.connect-item {
+  width: 44px;
+  height: 44px;
+}
+
+.connect-link {
+  display: flex;
+  padding: 12px;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.connect-link:hover,
+.connect-link:focus {
+  background-color: var(--accent-color);
+}
+
+.connect-social-networks-icon {
+  fill: currentColor;
+}
+
+.subcontainer-two {
+  margin-left: 70px;
+}
+
+.subcontainer-flex {
+  display: flex;
+  align-items: baseline;
+}
+
 /*|||||||||||||||||||||||| С Т Р А Н И Ц А   П О Р Т Ф О Л И О ||||||||||||||||||||||||*/
 
 /* Флекс на список кнопок фильтра */
