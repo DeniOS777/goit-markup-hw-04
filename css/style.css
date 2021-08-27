@@ -161,13 +161,21 @@ body {
 /* Главная почта и телефон */
 
 .contacts-main {
-  display: block;
+  display: flex;
   padding: 32px 0;
+  align-items: center;
 
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.icon-phone,
+.icon-mail {
+  display: block;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
