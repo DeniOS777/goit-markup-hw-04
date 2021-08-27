@@ -394,7 +394,8 @@ body {
   border-radius: 50%;
 }
 
-.social-networks-link:hover {
+.social-networks-link:hover,
+.social-networks-link:focus {
   background-color: var(--accent-color);
   color: white;
 }
