@@ -252,6 +252,14 @@ body {
   margin-left: 30px;
 }
 
+.icon-bg {
+  display: flex;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
 /* Подзаголовки списка преимуществ */
 
 .features-title {
