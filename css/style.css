@@ -381,11 +381,13 @@ body {
   fill: currentColor;
 }
 
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
   border-color: var(--accent-color);
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--accent-color);
 }
 
