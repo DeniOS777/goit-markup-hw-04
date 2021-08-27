@@ -1,5 +1,4 @@
 /* Объявление переменных */
-
 :root {
   --main-title-color: #ffffff;
   --secondary-title-color: #212121;
@@ -9,7 +8,6 @@
 }
 
 /* Сброс внешних и внутренних отступов у заголовков, абзацев и списков */
-
 h1,
 h2,
 h3,
@@ -32,7 +30,6 @@ img {
 }
 
 /* Задание правил для тэга body */
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -41,7 +38,6 @@ body {
 }
 
 /* Контейнер для центрирования контента */
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -50,14 +46,12 @@ body {
 }
 
 /* Класс для всех секций  */
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 /* Скрытие заголовков */
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -72,13 +66,11 @@ body {
 /* ||||||||||||||||||||||||||||||||| Х Е Д Е Р ||||||||||||||||||||||||||||||| */
 
 /* Нижняя рамка у хедера */
-
 .page-header {
   border-bottom: 1px solid #ececec;
 }
 
 /* Общие стили логотипа студии для хедера и футера */
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -88,7 +80,6 @@ body {
 }
 
 /* Отступы для лого в хедере */
-
 .header-logo {
   margin-right: 93px;
   padding-top: 24px;
@@ -96,45 +87,38 @@ body {
 }
 
 /* Выделение цветом части логотипа */
-
 .logo-web {
   color: var(--accent-color);
 }
 
 /* Общий флекс контейнер хедера */
-
 .header-flex {
   display: flex;
 }
 
 /* Флекс на навигацию и список навигации */
-
 .nav,
 .nav-list {
   display: flex;
 }
 
 /* Горизонтальные отступы в ссылках навигации */
-
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
 /* Флекс списка контактов и горизонтальный отступ к контактам хедера */
-
 .header-contacts-list {
   display: flex;
   margin-left: auto;
 }
 
 /* Горизонтальный отступ между почтой и телефоном */
-
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 
 /* Ссылки навигации по страницам сайта */
-
 .nav-link {
   display: block;
   padding: 32px 0;
@@ -146,20 +130,17 @@ body {
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
 }
 
 /* Подсвечивание текущей страницы */
-
 .current {
   color: var(--accent-color);
 }
 
 /* Главная почта и телефон */
-
 .contacts-main {
   display: flex;
   padding: 32px 0;
@@ -171,15 +152,16 @@ body {
   color: var(--text-color);
 }
 
+/* Стили к иконкам телефона и почты */
 .icon-phone,
 .icon-mail {
   display: block;
   margin-right: 10px;
+
   fill: currentColor;
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
-
 .contacts-main:hover,
 .contacts-main:focus {
   color: var(--accent-color);
@@ -188,12 +170,12 @@ body {
 /* ||||||||||||||||||||| С Е К Ц И Я   Г Е Р О Й ||||||||||||||||||||| */
 
 /* Стили к секции герой */
-
 .hero {
   padding-bottom: 200px;
   padding-top: 200px;
 
   text-align: center;
+
   background-color: #c4c4c4;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -206,7 +188,6 @@ body {
 }
 
 /* Стили к заголовку героя */
-
 .hero-title {
   margin-bottom: 30px;
   min-height: 120px;
@@ -220,7 +201,6 @@ body {
 }
 
 /* Кнопка заказа услуги */
-
 .hero-button {
   padding: 10px 32px;
   min-width: 200px;
@@ -231,8 +211,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
 
+  background-color: #2196f3;
   cursor: pointer;
   border-style: none;
   border-radius: 4px;
@@ -240,7 +220,6 @@ body {
 }
 
 /* Эффект выделения кнопки цветом при ховере и фокусе */
-
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
@@ -249,17 +228,18 @@ body {
 /* ||||||||||||||||||||| С Е К Ц И Я   П Р Е И М У Щ Е С Т В ||||||||||||||||||||| */
 
 /* Флекс на список преимуществ */
-
 .features-list {
   display: flex;
   margin-left: -30px;
 }
 
+/* Размер элементов в списке преимуществ */
 .features-item {
   flex-basis: calc(100% / 4);
   margin-left: 30px;
 }
 
+/* Фон под иконки */
 .icon-bg {
   display: flex;
   padding: 25px 100px;
@@ -270,7 +250,6 @@ body {
 }
 
 /* Подзаголовки списка преимуществ */
-
 .features-title {
   margin-bottom: 10px;
 
@@ -280,7 +259,6 @@ body {
 }
 
 /* Текс в подзаголовках преимуществ */
-
 .features-text {
   line-height: 1.71;
   color: var(--text-color);
@@ -289,13 +267,11 @@ body {
 /* ||||||||||||||||||||| С Е К Ц И Я   О   Н А Ш Е Й   Р А Б О Т Е ||||||||||||||||||||| */
 
 /* Сброс верхнего паддинга в секции о нашей работе */
-
 .work-section {
   padding-top: 0;
 }
 
 /* Заголовок секции о нашей работе и команде */
-
 .section-title {
   margin-bottom: 50px;
 
@@ -305,14 +281,12 @@ body {
 }
 
 /* Флекс на список о нашей работе */
-
 .work-list {
   display: flex;
   margin-left: -30px;
 }
 
 /* Стили к списку о нашей работе */
-
 .work-item {
   flex-basis: calc(100% / 3);
   margin-left: 30px;
@@ -321,20 +295,17 @@ body {
 /* ||||||||||||||||||||| С Е К Ц И Я   Н А Ш А   К О М А Н Д А ||||||||||||||||||||| */
 
 /* Фон секции с командой */
-
 .section-background {
   background-color: #f5f4fa;
 }
 
 /* Флекс на список команды */
-
 .team-list {
   display: flex;
   margin-left: -30px;
 }
 
 /* Стили к списку команды */
-
 .team-item {
   flex-basis: calc(100% / 4);
   margin-left: 30px;
@@ -346,7 +317,6 @@ body {
 }
 
 /* Стили к подписи фото членов команды */
-
 .team-item-content {
   padding-top: 30px;
 
@@ -354,7 +324,6 @@ body {
 }
 
 /* Имена членов команды */
-
 .member-title {
   margin-bottom: 10px;
 
@@ -364,7 +333,6 @@ body {
 }
 
 /* Профессии членов команды */
-
 .member-text {
   margin-bottom: 16px;
 
@@ -373,22 +341,25 @@ body {
   color: var(--text-color);
 }
 
+/* Флекс списка соц сетей */
 .social-networks-list {
   display: flex;
   padding-bottom: 30px;
   justify-content: center;
-  
 }
 
+/* Отступы (margin) в списке соц сетей кроме последнего */
 .social-networks-item:not(:last-child) {
   margin-right: 10px;
 }
 
+/* Размер элементов в списке соц сетей */
 .social-networks-item {
   width: 44px;
   height: 44px;
 }
 
+/* Блоки в списке соц сетей */
 .social-networks-link {
   display: flex;
   padding: 12px;
@@ -396,22 +367,26 @@ body {
   border-radius: 50%;
 }
 
+/* Эффект выделения цветом при ховере и фокусе */
 .social-networks-link:hover,
 .social-networks-link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 
+/* Наследование цвета иконками */
 .social-networks-icon {
   fill: currentColor;
 }
 
 /* ||||||||||||||||||||| С Е К Ц И Я   Н А Ш И   К Л И Е Н Т Ы ||||||||||||||||||||| */
 
+/* Флекс списка клиентов */
 .clients-list {
   display: flex;
 }
 
+/* Блоки в списке клиентов */
 .clients-item {
   flex-basis: calc((100% - 150px) / 6);
   width: 170px;
@@ -419,26 +394,32 @@ body {
   border-radius: 4px;
 }
 
+/* Отступы (margin) в списке клиентов кроме последнего */
 .clients-item + .clients-item {
   margin-left: 30px;
 }
 
+/* Флекс на ссылки клиентов */
 .clients-link {
   display: flex;
   justify-content: center;
   padding: 16px 32px;
+
   color: #afb1b8;
 }
 
+/* Наследование цвета иконками */
 .clients-icon {
   fill: currentColor;
 }
 
+/* Эффект выделения цветом при ховере и фокусе */
 .clients-item:hover,
 .clients-item:focus {
   border-color: var(--accent-color);
 }
 
+/* Эффект выделения цветом при ховере и фокусе */
 .clients-link:hover,
 .clients-link:focus {
   color: var(--accent-color);
@@ -446,6 +427,7 @@ body {
 
 /* |||||||||||||||||||||   Ф У Т Е Р   С Т Р А Н И Ц Ы   ||||||||||||||||||||| */
 
+/* Падинги в футере */
 .footer {
   padding: 60px 0;
 
@@ -453,44 +435,39 @@ body {
 }
 
 /* Преобразование из строчного в блочный элемент */
-
 .logo-move {
   display: inline-block;
   margin-bottom: 20px;
 }
 
 /* Выделение белым цветом studio */
-
 .logo-studio {
   color: #ffffff;
 }
 
 /* Сброс курсивного начертания в теге address */
-
 .footer-info {
   font-style: normal;
 }
 
 /* Отступы (margin) в списке футера кроме последнего */
-
 .footer-contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
 /* Физический адрес студии */
-
 .contacts-link {
   line-height: 1.71;
   color: #ffffff;
 }
 
+/* Эффект выделения цветом при ховере и фокусе */
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
 }
 
 /* Дополнительная почта и телефон */
-
 .contacts-secondary {
   display: inline-block;
 
@@ -499,12 +476,12 @@ body {
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
-
 .contacts-secondary:hover,
 .contacts-secondary:focus {
   color: var(--accent-color);
 }
 
+/* Заголовок списка соц сетей в футере */
 .connect-title {
   margin-bottom: 20px;
 
@@ -514,40 +491,50 @@ body {
   text-transform: uppercase;
 }
 
+/* Флекс на список соц сетей */
 .connect-list {
   display: inline-flex;
 }
 
+/* Отступы (margin) в списке футера кроме последнего */
 .connect-item:not(:last-child) {
   margin-right: 10px;
 }
 
+/* Стили к элементу списка */
 .connect-item {
   width: 44px;
   height: 44px;
 }
 
+/* Стили к ссылке */
 .connect-link {
   display: flex;
   padding: 12px;
+
   color: #FFFFFF;
+
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
+/* Эффект выделения цветом при ховере и фокусе */
 .connect-link:hover,
 .connect-link:focus {
   background-color: var(--accent-color);
 }
 
+/* Наследование цвета иконками */
 .connect-social-networks-icon {
   fill: currentColor;
 }
 
+/* Маржин меджу блоками */
 .subcontainer-two {
   margin-left: 70px;
 }
 
+/* Выравнивание по базовой линии */
 .subcontainer-flex {
   display: flex;
   align-items: baseline;
@@ -556,22 +543,18 @@ body {
 /*|||||||||||||||||||||||| С Т Р А Н И Ц А   П О Р Т Ф О Л И О ||||||||||||||||||||||||*/
 
 /* Флекс на список кнопок фильтра */
-
 .filter-list {
   display: flex;
   margin-bottom: 50px;
-
   justify-content: center;
 }
 
 /* Отступы между кнопками фильтра */
-
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
 /* Стили к кнопкам фильтра */
-
 .filter-button {
   padding: 6px 22px;
 
@@ -579,15 +562,14 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: #212121;
-  background-color: var(--button-bg-color);
 
+  background-color: var(--button-bg-color);
   cursor: pointer;
   border-style: none;
   border-radius: 4px;
 }
 
 /* Флекс на список проектов */
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -596,21 +578,21 @@ body {
 }
 
 /* Стили к списку проектов */
-
 .projects-item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.projects-link:hover {
+/* Эффект выделения тенью при ховере и фокусе */
+.projects-link:hover,
+.projects-link:focus {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Отступы под карточкой проекта */
-
 .projects-content {
   padding: 20px 24px;
 
@@ -621,7 +603,6 @@ body {
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
-
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
@@ -631,7 +612,6 @@ body {
 }
 
 /* Названия проектов */
-
 .projects-title {
   margin-bottom: 4px;
 
@@ -642,7 +622,6 @@ body {
 }
 
 /* Название категории проектов */
-
 .projects-text {
   font-size: 16px;
   line-height: 1.87;
