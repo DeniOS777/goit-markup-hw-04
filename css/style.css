@@ -397,7 +397,7 @@ body {
 .social-networks-link:hover,
 .social-networks-link:focus {
   background-color: var(--accent-color);
-  color: white;
+  color: #ffffff;
 }
 
 .social-networks-icon {
