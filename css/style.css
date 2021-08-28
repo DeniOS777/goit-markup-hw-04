@@ -242,7 +242,9 @@ body {
 /* Фон под иконки */
 .icon-bg {
   display: flex;
-  padding: 25px 100px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 
   background-color: #f5f4fa;
@@ -362,7 +364,11 @@ body {
 /* Блоки в списке соц сетей */
 .social-networks-link {
   display: flex;
-  padding: 12px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  
   color: #AFB1B8;
   border-radius: 50%;
 }
@@ -389,7 +395,7 @@ body {
 /* Блоки в списке клиентов */
 .clients-item {
   flex-basis: calc((100% - 150px) / 6);
-  width: 170px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -402,8 +408,10 @@ body {
 /* Флекс на ссылки клиентов */
 .clients-link {
   display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  padding: 16px 32px;
+  align-items: center;
 
   color: #afb1b8;
 }
